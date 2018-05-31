@@ -3,14 +3,14 @@ var express = require('express');
 var path = require('path');
  
 var bot = linebot({
-    channelId: '你的機器人的channelId',
-    channelSecret: '你的機器人的channelSecret',
-    channelAccessToken: '你的機器人的channelAccessToken'
+    channelId: '1578092539',
+    channelSecret: '139bf2744c85557724b4057606420401',
+    channelAccessToken: '/st2B07Qjl17t28/By1Yt1EQ50nMP4g5YJe0xnq46WYWBK3XLtdUKV49dSr+VJqUniTZtryOHJh0zq4JPIe4TllMlFgqbGHVjqAEz84qen+OHEzGXh2wHHoZ6nAiX5meqd9DIBHQ573L4sD21YFBigdB04t89/1O/w1cDnyilFU='
 });
  
 var message = {
-    "你好":"我不好",
-    "你是誰":"我是ㄐ器人"
+    "你好":"我好",
+    "你是誰":"我人"
 };
  
 bot.on('message', function (event) {
